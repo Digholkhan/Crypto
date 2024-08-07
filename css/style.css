@@ -618,6 +618,13 @@ a:focus, a:hover {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+  overflow: hidden;
+}
+.banner-shape img{
+  position: absolute;
+  bottom: -180px;
+  left: 0;
+  width: 100%;
 }
 .hero-left img{
   width: 100%;
