@@ -65,7 +65,8 @@ a:focus, a:hover {
   border-radius: 50px;
 }
 .btn-main:hover, .btn-main-sm:hover {
-  color: #fff;
+  color: #000000;
+  border: 1px solid #000
 }
 
 .btn-main-sm {
@@ -360,7 +361,24 @@ a:focus, a:hover {
 .slick-slide {
   outline: none;
 }
+.nav-btn{
+  background-color: #C8A968;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 15px 30px !important;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.nav-btn:hover{
+  background-color: transparent;
+  color: #000;
+  border: 1px solid #000;
 
+}
 .commonTab .nav-tabs {
   border: 1px solid transparent;
   text-align: center;
@@ -449,10 +467,10 @@ a:focus, a:hover {
   transition: 0.3s all;
 }
 .navigation .navbar-nav > li.active a {
-  color: #707d8f;
+  color: #C8A968;
 }
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
+  color: #3a3a33;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -992,9 +1010,9 @@ a:focus, a:hover {
 .pricing-table .pricing-tab li {
   display: inline-block;
 }
-.pricing-table .pricing-tab li a {
+.pricing-table .pricing-tab li button {
   padding: 10px 30px;
-  color: #555;
+  color: #555 !important;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -1068,6 +1086,10 @@ a:focus, a:hover {
   height: 50px;
   border-radius: 0;
 }
+.custom-pricing-form button{
+  padding: 15px 40px;
+}
+
 
 /*=================================================================
   Services section
