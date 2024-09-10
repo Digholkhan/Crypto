@@ -622,9 +622,10 @@ a:focus, a:hover {
 }
 .banner-shape img{
   position: absolute;
-  bottom: -180px;
+  bottom: -150px;
   left: 0;
   width: 100%;
+  z-index: -1; 
 }
 .hero-left img{
   width: 100%;
